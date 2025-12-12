@@ -1,0 +1,33 @@
+<svg width="64" height="64" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <path id="sparkle-shape" d="M12 0C12 0 16 8 24 12C16 16 12 24 12 24C12 24 8 16 0 12C8 8 12 0 12 0Z" />
+
+        <radialGradient id="grad-top" cx="50%" cy="0%" r="70%">
+            <stop offset="0%" stop-color="#EA4335" /> <stop offset="100%" stop-color="#EA4335" stop-opacity="0" />
+        </radialGradient>
+
+        <radialGradient id="grad-right" cx="100%" cy="50%" r="70%">
+            <stop offset="0%" stop-color="#4285F4" /> <stop offset="100%" stop-color="#4285F4" stop-opacity="0" />
+        </radialGradient>
+
+        <radialGradient id="grad-bottom" cx="50%" cy="100%" r="70%">
+            <stop offset="0%" stop-color="#34A853" /> <stop offset="100%" stop-color="#34A853" stop-opacity="0" />
+        </radialGradient>
+
+        <radialGradient id="grad-left" cx="0%" cy="50%" r="70%">
+            <stop offset="0%" stop-color="#FBBC04" /> <stop offset="100%" stop-color="#FBBC04" stop-opacity="0" />
+        </radialGradient>
+    </defs>
+
+    <clipPath id="clip-star">
+        <use href="#sparkle-shape" />
+    </clipPath>
+
+    <g clip-path="url(#clip-star)">
+        <rect width="24" height="24" fill="white" />
+        <rect width="24" height="24" fill="url(#grad-top)" />
+        <rect width="24" height="24" fill="url(#grad-right)" />
+        <rect width="24" height="24" fill="url(#grad-bottom)" />
+        <rect width="24" height="24" fill="url(#grad-left)" />
+    </g>
+</svg>
