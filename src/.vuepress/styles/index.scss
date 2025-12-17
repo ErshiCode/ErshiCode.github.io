@@ -41,5 +41,12 @@
     display: none !important;
   }
 
+
+}
+
+/* 针对你的 Tab 按钮强制修改字体 */
+.vp-tab-nav {
+  font-family: inherit !important; /* 强制跟随全局字体 */
+  font-weight: bold;               /* 加粗让它更像标题 */
 }
   

@@ -9,9 +9,9 @@ export default navbar([
       {
         text: 'Core',
         children: [
-          { text: '算法',  icon: '/assets/icon/algorithm.svg', link: "/Basic/Algorithm/" },
-          { text: '数据结构', icon: '/assets/icon/dataStructure.svg', link: "/Basic/DataStructure/" },
-          { text: 'LeetCode', icon: '/assets/icon/leetcode.svg',  link: '/Basic/LeetCode/' },
+          { text: '算法',  icon: '/assets/icon/algorithm.svg', link: "/Basics/Algorithm/" },
+          { text: '数据结构', icon: '/assets/icon/dataStructure.svg', link: "/Basics/DataStructure/" },
+          { text: 'LeetCode', icon: '/assets/icon/leetcode.svg',  link: '/Basics/LeetCode/' },
         ]
       },
     ]
