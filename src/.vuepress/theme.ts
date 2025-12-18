@@ -57,26 +57,9 @@ export default hopeTheme({
 
   locales: {
     "/": {
-      footer: `
-        Copyright © 2025 ErshiCode | 
-        <a href="https://beian.miit.gov.cn/" target="_blank">黑ICP备2025039986号-1</a>
-      `,
-
+      footer: '<a href="https://beian.miit.gov.cn/" target="_blank">黑ICP备2025039986号-1</a>',
       displayFooter: true,
-
-      copyright: `
-        Copyright © 2025 - present
-        <center>
-          <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
-          <span id="busuanzi_container_site_pv" style="display:none">
-            本站总访问量 <span id="busuanzi_value_site_pv"></span> 次
-          </span>
-          <span id="busuanzi_container_site_uv" style="display:none">
-            | 本站访客数 <span id="busuanzi_value_site_uv"></span> 人次
-          </span>
-        </center>
-      `,
-
+      copyright: 'Copyright © 2025 ErshiCode  <center><script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><span id="busuanzi_container_site_pv" style=\'display:none\'>本站总访问量 <span id="busuanzi_value_site_pv"></span> 次 </span> <span id="busuanzi_container_site_uv" style=\'display:none\'> | 本站访客数 <span id="busuanzi_value_site_uv"></span> 人次 <span id="busuanzi_container_page_pv" style=\'display:none\'> | 本文总阅读量 <span id="busuanzi_value_page_pv"></span> 次</center>',
       metaLocales: {
         editLink: "在 GitHub 上编辑此页",
       },
