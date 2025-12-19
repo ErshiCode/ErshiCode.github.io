@@ -62,7 +62,19 @@ titles:
     </div>
 </div>
 
-## Projects
+## Action-Oriented
+
+<div style="width: 910px; text-align: left; line-height: 2.4;">
+    <div>- 🚀 My goal is to become a professional Software Engineer who builds elegant and efficient solutions.</div>
+    <div>- ☕ A developer in the making, dedicating my passion to the Java ecosystem and backend development.</div>
+    <div>- 📚 I enjoy recording my campus life and organizing technical notes to document my growth journey.</div>
+    <div>- 🤖 Recently expanding my horizons by exploring LLM applications, specifically RAG and AI Agents.</div>
+    <div>- 🎓 Currently focusing on polishing my graduation project while continuously consolidating my core skills.</div>
+</div>
+
+
+
+
 
 
 
