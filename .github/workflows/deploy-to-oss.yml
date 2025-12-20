@@ -1,0 +1,50 @@
+name: Deploy to Aliyun OSS
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      # 1. 配置 pnpm (照搬你旧文件的配置)
+      - name: Install pnpm
+        uses: pnpm/action-setup@v2
+        with:
+          version: 8
+          run_install: false
+
+      # 2. 配置 Node.js
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: 'pnpm'
+
+      # 3. 安装依赖并构建
+      - name: Install and Build
+        env:
+          NODE_OPTIONS: --max_old_space_size=8192
+        run: |
+          pnpm install
+          pnpm run docs:build
+          # pnpm run build (如果是 VuePress 2.x 请确认命令)
+
+      # 4. 上传到阿里云 OSS
+      - name: Upload to Aliyun OSS
+        uses: fangbinwei/aliyun-oss-website-action@v1
+        with:
+          accessKeyId: ${{ secrets.OSS_KEY_ID }}
+          accessKeySecret: ${{ secrets.OSS_KEY_SECRET }}
+          bucket: ${{ secrets.OSS_BUCKET }}
+          endpoint: ${{ secrets.OSS_ENDPOINT }}
+          folder: src/.vuepress/dist
+          incremental: true
