@@ -2,7 +2,7 @@
 home: true
 layout: BlogHome
 
-title: 🏠️ 博客主页
+title: 🏡 博客主页
 heroText: In Time
 tagline: 0057.02.1.23.59.59 
 bgImage: /assets/bgImage/background.jpg

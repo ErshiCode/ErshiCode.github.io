@@ -17,41 +17,9 @@ export default navbar([
     ]
   },
 
-  {
-    text: '💻 底层原理',
-    children: [
-      {
-        text: '基础',
-        children: [
-          { text: "计算机网络",  icon: '/assets/icon/network.svg', link: "/ComputerBasics/ComputerNetwork/" },
-          { text: "操作系统", icon: '/assets/icon/os.svg', link: "/ComputerBasics/OpreatingSystem/" }
-        ]
-      },
-    ]
-  },
-
 
   {
-    text: '📑 数据存储',
-    children: [
-      {
-        text: '数据库基础和原理',
-        children: [
-          { text: '数据库原理',  icon: '/assets/icon/database.svg', link: '/Database/Basic/Principle/' },
-        ]
-      },
-      {
-        text: '数据库',
-        children: [
-          { text: "Mysql详解",  icon: '/assets/icon/mysql.svg', link: "/Database/SQL/" },
-          { text: "Redis详解",  icon: '/assets/icon/redis.svg', link: "/Database/NoSQL/" },
-        ]
-      }
-    ]
-  },
-
-  {
-    text: '🔬 后端相关',
+    text: '☕ 后端图鉴',
     children: [
       {
         text: '理论知识',
@@ -75,20 +43,35 @@ export default navbar([
 
 
   {
-    text: '🔭 前端相关',
+    text: '🧊 架构基石',
     children: [
       {
-        text: '理论知识',
+        text: '数据库',
         children: [
-          { text: "JavaScript", icon: '/assets/icon/javascript.svg', link: "/FrontEnd/JavaScript/" },
-          { text: "CSS",        icon: '/assets/icon/css.svg',        link: "/FrontEnd/CSS/" },
-          { text: "HTML",       icon: '/assets/icon/html.svg',       link: "/FrontEnd/HTML/" },
+          { text: "Mysql",  icon: '/assets/icon/mysql.svg', link: "/Middleware/MySQL/" },
+          { text: "Redis",  icon: '/assets/icon/redis.svg', link: "/Middleware/Redis/" },
+          { text: "Elasticsearch",  icon: '/assets/icon/elasticsearch.svg', link: "/Middleware/Elasticsearch/" },
         ]
       },
       {
-        text: '框架',
+        text: '消息队列',
         children: [
-          { text: "Vue", icon: '/assets/icon/vue.svg', link: "/FrontEnd/Vue/" },
+          { text: "RabbitMQ",  icon: '/assets/icon/rabbitmq.svg', link: "/Middleware/RabbitMQ/" },
+          { text: "Kafka",  icon: '/assets/icon/kafka.svg', link: "/Middleware/Kafka/" },
+        ]
+      }
+    ]
+  },
+
+
+  {
+    text: '🕳️ 底层原理',
+    children: [
+      {
+        text: '基础',
+        children: [
+          { text: "计算机网络",  icon: '/assets/icon/network.svg', link: "/ComputerBasics/ComputerNetwork/" },
+          { text: "操作系统", icon: '/assets/icon/os.svg', link: "/ComputerBasics/OpreatingSystem/" }
         ]
       },
     ]
@@ -96,7 +79,23 @@ export default navbar([
 
 
   {
-    text: '⚙️ 便捷工具',
+    text: '🧠 硅基觉醒',
+    children: [
+      {
+        text: '基础',
+        children: [
+          { text: "LLM",  icon: '/assets/icon/llm.svg', link: "/AI/LLM/" },
+          { text: "RAG", icon: '/assets/icon/rag.svg', link: "/AI/RAG/" },
+          { text: "Agent", icon: '/assets/icon/agent.svg', link: "/AI/Agent/" }
+        ]
+      },
+    ]
+  },
+
+
+
+  {
+    text: '🔨 便捷工具',
     children: [
       {
         text: '文档',

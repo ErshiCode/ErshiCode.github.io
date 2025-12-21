@@ -19,9 +19,12 @@ export default sidebar({
   "/ComputerBasics/OpreatingSystem/*": "structure",
 
 
-  "/Database/Basic/Principle/": "structure",
-  "/Database/NoSQL/": "structure",
-  "/Database/SQL/": "structure",
+  "/Middleware/MySQL/": "structure",
+  "/Middleware/Redis/": "structure",
+  "/Middleware/ElasticSearch/": "structure",
+  "/Middleware/RabbitMQ/": "structure",
+  "/Middleware/Kafka/": "structure",
+
 
   "/BackEnd/JavaSE/": "structure",
   "/BackEnd/JavaWeb/": "structure",
@@ -32,11 +35,7 @@ export default sidebar({
   "/BackEnd/SpringCloud/": "structure",
   "/BackEnd/SpringMVC/": "structure",
 
-  "/FrontEnd/HTML/": "structure",
-  "/FrontEnd/CSS/": "structure",
-  "/FrontEnd/JavaScript/": "structure",
-  "/FrontEnd/Vue/": "structure",
-  
+
   "/Demo/": "structure",
 
 });
