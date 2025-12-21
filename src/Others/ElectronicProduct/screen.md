@@ -25,29 +25,22 @@ actions:
     link: ./keyboard
 
 highlights:
-  - header: AOC Q24G2
-    description: 2023-07-13 ~ present
-    image: /assets/others/q24g2.jpg
+  - header: AOC U27U2DS
+    description: 2022-10-29 ~ present
+    image: /assets/others/U27U2DS.jpg
     bgImage: https://theme-hope-assets.vuejs.press/bg/10-light.svg
     bgImageDark: https://theme-hope-assets.vuejs.press/bg/10-dark.svg
     highlights:
       - title: 💰 价格
-        details: 1199¥
-        link: https://detail.zol.com.cn/lcd/index1422229.shtml
+        details: 2899¥
+        link: https://detail.zol.com.cn/lcd/index1394255.shtml
 
       - title: 🗻 屏幕尺寸
-        details: 23.8英寸、 长539.1mm，宽227.4mm，高374.6mm 
+        details: 27英寸、 长612.7mm，宽215.3mm，高532.3mm 
 
       - title: 🌋 屏幕比例
-        details: 16 ：9
-
-      - title: 🚄 分辨率
-        details: 2560*1440
+        details: 3840*2160
 
       - title: 🚢 刷新率
-        details: 165Hz
-
-      - title: 🌏 接口
-        details: HDMI 2.0 * 1、DP 1.2 * 1、音频/耳机 * 1
-
+        details: 4K 60Hz
 ---

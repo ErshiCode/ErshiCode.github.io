@@ -24,30 +24,20 @@ actions:
     link: ./keyboard
     type: primary
 
-#highlights:
-#  - header: AOC Q24G2
-#    description: 2023-07-13 ~ present
-#    image: /assets/others/q24g2.jpg
-#    bgImage: https://theme-hope-assets.vuejs.press/bg/10-light.svg
-#    bgImageDark: https://theme-hope-assets.vuejs.press/bg/10-dark.svg
-#    highlights:
-#      - title: 💰 价格
-#        details: 1199¥
-#        link: https://detail.zol.com.cn/lcd/index1422229.shtml
-#
-#      - title: 🗻 屏幕尺寸
-#        details: 23.8英寸、 长539.1mm，宽227.4mm，高374.6mm 
-#
-#      - title: 🌋 屏幕比例
-#        details: 16 ：9
-#
-#      - title: 🚄 分辨率
-#        details: 2560*1440
-#
-#      - title: 🚢 刷新率
-#        details: 165Hz
-#
-#      - title: 🌏 接口
-#        details: HDMI 2.0 * 1、DP 1.2 * 1、音频/耳机 * 1
+highlights:
+  - header: Logitech MX Keys mini
+    description: 2025-08-25 ~ present
+    image: /assets/others/KeysMini.jpg
+    bgImage: https://theme-hope-assets.vuejs.press/bg/10-light.svg
+    bgImageDark: https://theme-hope-assets.vuejs.press/bg/10-dark.svg
+    highlights:
+      - title: 💰 价格
+        details: 499¥
+        link: https://detail.zol.com.cn/keyboard/index1967375.shtml
 
+      - title: 🗻 连接方式
+        details: 有线、蓝牙 
+
+      - title: 🌋 连接设备数量
+        details: 3个
 ---
